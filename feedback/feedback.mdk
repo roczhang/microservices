@@ -1,0 +1,96 @@
+Title         : 反馈
+Author        : yaguang
+Logo          : True
+
+#反馈#
+
+![feedback]
+
+[feedback]: images/feedback.png "feedback" { width:auto; max-width:90% }
+
+上图对于是我们如何认识世界的一个方法， 实验。 将实验结果和期望结果比对，比对的结果作为反馈，去验证和纠正大脑的认识，从而是我们可以确认或者纠正我们的认知，或真理。
+
+
+## 反馈作用 ##
+
+帮助我们确认，验证，纠正；
+
+如果第一次去某个展馆，你道路上发现引导的箭头，你会很自信的指导，自己当前是否在那个位置，下一个位置在哪里。
+其实生活中中的反馈，很常见； 作为考试，也是对你所学的知识的测试，以便于反馈与查缺补漏。
+
+## 反馈与软件变化 ##
+
+![changeCost]
+
+[changeCost]: images/changeCost.png "changeCost" { width:auto; max-width:90% }
+
+
+对于变化的事物，我们要认识它，就需要尽快反馈，这样尽早知道当前的状态，从而可以较小的成本更正。 对于软件开发而言，其越早发现问题，修复的成本越低。
+软件里面有每一个阶段都可以有反馈，这样的反馈越早，修复的成本越低。
+
+软件发布之后还会有变化，这样的变化，对于已有的产品有重大影响。 如何在修改已有的代码的时候，保证新的修改不会有regression， 或者有尽早发现regression。
+
+反馈，以及反馈的速度是很关键的。 否则就刻舟求剑。
+ 
+## 软件开发里面的反馈 ##
+
+1. 开发流程，由瀑布开发到增量迭代开发方式； 比如scrum, 将一年一个release，变成多个迭代release。 Scrum 里面planing meeting 与 review meeting 就是一次反馈； planing meeting 与 retrospective meeting 也是一次反馈，对于流程； daily meeting 也可以当作反馈；加快反馈更早，更速度。
+   
+2. 持续发布， CD。 持续发布比SCRUM 更进一步，对于每一次提交都要验证。 自动化，反馈速度更早，更快。 期望是10几分钟反馈。
+
+3. code reivew， 以及code inpection，对于代码的修改做一个人工检查。 这个是人工的，也是10到几个小时；
+
+3. 测试驱动开发，TDD，对于每一次代码的修改可以验证，反馈更早，更快速。在于写代码的时刻，是秒级别的；
+
+4. XP。 反馈还不还可以更早？  Pair programming, 在写代码的时候都可以就有另外一个人可以帮助你反馈； 更早，基本是实时的。
+
+
+反馈对于软件的日常开发有很大的应用。
+
+![feedback on software development3]
+
+[feedback on software development3]: images/feedback-on-software-development3.png "feedback on software development3" { width:auto; max-width:90% }
+
+  
+
+5. DT。反馈，从coding， 测试，发布都有反馈； 但是能不能更进一步？ 在需求的时候？ 原型！公司推的Design thinking，与客户面对面的反馈。 写PPT 总比code的反馈更早，更及时。
+
+![design thinking]
+
+[design thinking]: images/design-thinking.png "design thinking" { width:auto; max-width:90% }
+
+  
+  
+再看敏捷宣言：
+
+1. 个体交互优先于流程和工具。 
+
+   这个显而易见，到目前而已，人是最高的智能生物； 当然要处理好团队的文化，信任。
+
+2. 可以工作的软件优先于文档； 
+
+   可工作的软件，比起文档，可工作的软件，反馈精确性， 有效性，可视化，是清清楚楚的。(对于需求的多维度，语言很难表述清楚)
+
+3. 和客户一块工作。 
+
+  这个就是对于需求，难以用语言描述，和客户一块工作，可以得到实时反馈；保证工作一直是正确的。
+
+4. 拥抱变化。 
+
+
+在看看反馈一个特点
+
+1. 减少反馈的噪音。 减少反馈系统本身的干扰，比如说CD pipeline 不稳定； 比如 UT 没有及时更新错误； 
+
+2. 反馈的针对性。 如果发现问题，能清楚告诉是哪里出问题； 是什么原因导致的问题；便于后面便于修复和定位
+
+3. 反馈的及时性。 反馈尽可能的快和早，这样子有问题早日解决。 在CD里面，需要团队第一时间修复CD的bug
+
+
+
+
+
+
+Enjoy!
+
+[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
